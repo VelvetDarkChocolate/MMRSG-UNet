@@ -20,7 +20,5 @@ The datasets used in our experiments are consistent with previous benchmarks and
 You can download the fully processed dataset directly from the following link:
 - [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
 
-*(Please place the downloaded data into the `data/` directory of this repository once the code is released.)*
-
 ---
 Thank you for your interest in our work! Please star ⭐ this repository to stay updated.
