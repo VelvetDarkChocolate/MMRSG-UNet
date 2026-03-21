@@ -13,11 +13,7 @@ Currently, the paper is under peer review. The complete and thoroughly commented
 ## 🚀 Reproducibility & Codebase Structure
 Our implementation is built upon the highly robust and widely recognized **[CSWin-UNet](https://github.com/eatbeanss/CSWin-UNet)** framework. By inheriting this standardized pipeline, we ensure that our experimental settings are rigorous and easily reproducible. 
 
-Once released, this repository will provide the exact same full-pipeline capabilities, including:
-- **Dataset Preprocessing:** Standardized scripts for processing the Synapse and ACDC datasets.
-- **Training & Inference Scripts:** Ready-to-use PyTorch scripts (`train.py` and `test.py`) to reproduce our reported Dice and HD95 metrics.
-- **Model Definition:** The complete architecture code, including our novel `MS-SSM` bottleneck and `CSGAT` skip-connection modules.
-- **Evaluation Metrics:** Unified evaluation scripts for fair comparison.
+Once released, this repository will provide the complete, ready-to-use pipeline. This includes the **full MMRSG-UNet model definition**, **dataset preprocessing tools**, and **unified training/evaluation scripts** to fully reproduce our reported metrics.
 
 ## 📂 Data Preparation
 The datasets used in our experiments are strictly consistent with previous benchmarks (e.g., TransUNet, CSWin-UNet). 
@@ -31,7 +27,7 @@ Since our encoder is based on the CSWin Transformer, we initialize it using the 
 - [👉 CSWin-UNet Pre-trained Weights (`cswin_tiny_224.pth`)](https://github.com/eatbeanss/CSWin-UNet/tree/main/pretrained_ckpt)
 
 ### 2. Full MMRSG-UNet Weights
-Upon paper acceptance, we will upload the **fully trained MMRSG-UNet model weights** (for both Synapse and ACDC datasets) to this repository. Researchers will be able to download these weights and use our provided inference scripts for quick testing and external validation.
+Upon paper acceptance, we will upload the **fully trained MMRSG-UNet model weights** (for both Synapse and ACDC datasets) to this repository for quick testing and external validation.
 
 ---
 **Thank you for your interest in our work! Please star ⭐ this repository to stay updated on the code release.**
