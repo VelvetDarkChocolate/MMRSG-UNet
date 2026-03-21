@@ -5,25 +5,29 @@
 
 This is the official PyTorch implementation for the paper "**MMRSG-UNet: Integrating Multi-scale Mamba and Reverse Semantic Gating for Medical Image Segmentation**". 
 
-This repository will serve as the central hub for our code, data, and models.
+This repository serves as the central hub for our code, data, and models.
 
 ## 📢 Update Status & Open Source Commitment
-Currently, the paper is under peer review. The complete and thoroughly commented codebase will be made publicly available **immediately upon the acceptance of the paper**.
+Currently, the paper is under peer review. **To facilitate the review process and ensure transparency, we have already released the dataset preprocessing and augmentation pipelines.** The complete and thoroughly commented codebase (including the core model implementation, full training, and inference scripts) will be made publicly available **immediately upon the acceptance of the paper**.
 
 ## 🚀 Reproducibility & Codebase Structure
 Our implementation is developed based on the open-source **[CSWin-UNet](https://github.com/eatbeanss/CSWin-UNet)** framework. 
 
-Upon release, this repository will include the model implementation, dataset preprocessing scripts, and the training/evaluation code used in our experiments.
+* `datasets/`: **[Available Now]** Contains the precise data loading, preprocessing, and augmentation pipelines used in our experiments.
+    * `dataset_synapse.py`: Dataloader and augmentation logic for the Synapse dataset.
+    * `dataset_acdc.py`: Dataloader and strong augmentation pipeline (including elastic deformation, gamma correction, etc.) for the ACDC dataset.
+* `models/`, `train.py`, `test.py`: **[Coming Soon]** Will be released upon acceptance.
 
 ## 📂 Data Preparation
-The datasets we used are provided by TransUnet's authors.  
+The baseline datasets we used follow the standard splits provided by TransUnet's authors.  
 
-You can directly download the fully processed Synapse dataset (in `.npz` format) from the original provider's link:
-- [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
+* **Synapse Dataset:** You can directly download the fully processed Synapse dataset (in `.npz` format) from the original provider's link:
+    [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
+* **ACDC Dataset:** The original ACDC dataset can be accessed from the official challenge website. Please refer to our `datasets/dataset_acdc.py` for the specific `.h5` conversion and loading protocols.
 
 ## 📦 Pre-trained Models & Weights
-### 1. Encoder Initialization
-Since our encoder is based on the CSWin Transformer, we initialize it using the official pre-trained weights. You can access the foundational weights from our baseline repository here:
+### Encoder Initialization
+Since our encoder is based on the CSWin Transformer, we initialize it using the official pre-trained weights to ensure a fair comparison. You can access the foundational weights from our baseline repository here:
 - [👉 CSWin-UNet Pre-trained Weights (`cswin_tiny_224.pth`)](https://github.com/eatbeanss/CSWin-UNet/tree/main/pretrained_ckpt)
 
 ## 🙏 Acknowledgements & Citation
