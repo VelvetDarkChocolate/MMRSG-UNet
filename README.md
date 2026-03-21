@@ -29,5 +29,18 @@ Since our encoder is based on the CSWin Transformer, we initialize it using the 
 ### 2. Full MMRSG-UNet Weights
 Upon paper acceptance, we will upload the **fully trained MMRSG-UNet model weights** (for both Synapse and ACDC datasets) to this repository for quick testing and external validation.
 
----
-**Thank you for your interest in our work! Please star ⭐ this repository to stay updated on the code release.**
+## 🙏 Acknowledgements & Citation
+We would like to express our sincere gratitude to the authors of **CSWin-UNet** for their phenomenal foundational work and open-source contribution. Our codebase is heavily inspired by and built upon their repository. 
+
+If you find their work or our extended framework helpful, please consider citing the baseline CSWin-UNet:
+
+```bibtex
+@article{liu2025cswin,
+  title={CSWin-UNet: Transformer UNet with cross-shaped windows for medical image segmentation},
+  author={Liu, Xiao and Gao, Peng and Yu, Tao and Wang, Fei and Yuan, Ru-Yue},
+  journal={Information Fusion},
+  volume={113},
+  pages={102634},
+  year={2025},
+  publisher={Elsevier}
+}
