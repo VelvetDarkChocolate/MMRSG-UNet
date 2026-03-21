@@ -16,7 +16,7 @@ Our implementation is developed based on the open-source **[CSWin-UNet](https://
 Upon release, this repository will include the model implementation, dataset preprocessing scripts, and the training/evaluation code used in our experiments.
 
 ## 📂 Data Preparation
-The datasets used in our experiments are consistent with previous benchmarks (e.g., TransUNet, CSWin-UNet). 
+The datasets we used are provided by TransUnet's authors.  
 
 You can directly download the fully processed Synapse dataset (in `.npz` format) from the original provider's link:
 - [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
