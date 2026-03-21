@@ -13,7 +13,7 @@ Currently, the paper is under peer review. The complete and thoroughly commented
 ## 🚀 Reproducibility & Codebase Structure
 Our implementation is developed based on the open-source **[CSWin-UNet](https://github.com/eatbeanss/CSWin-UNet)** framework. 
 
-Once released, this repository will provide the complete, ready-to-use pipeline. This includes the full MMRSG-UNet model definition, dataset preprocessing tools, and unified training/evaluation scripts to fully reproduce our reported metrics.
+Upon release, this repository will include the model implementation, dataset preprocessing scripts, and the training/evaluation code used in our experiments.
 
 ## 📂 Data Preparation
 The datasets used in our experiments are consistent with previous benchmarks (e.g., TransUNet, CSWin-UNet). 
