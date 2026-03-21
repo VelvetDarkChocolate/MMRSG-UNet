@@ -26,9 +26,6 @@ You can directly download the fully processed Synapse dataset (in `.npz` format)
 Since our encoder is based on the CSWin Transformer, we initialize it using the official pre-trained weights. You can access the foundational weights from our baseline repository here:
 - [👉 CSWin-UNet Pre-trained Weights (`cswin_tiny_224.pth`)](https://github.com/eatbeanss/CSWin-UNet/tree/main/pretrained_ckpt)
 
-### 2. Full MMRSG-UNet Weights
-Upon paper acceptance, we will upload the **fully trained MMRSG-UNet model weights** (for both Synapse and ACDC datasets) to this repository for quick testing and external validation.
-
 ## 🙏 Acknowledgements & Citation
 We would like to express our sincere gratitude to the authors of **CSWin-UNet** for their phenomenal foundational work and open-source contribution. Our codebase is heavily inspired by and built upon their repository. 
 
