@@ -5,18 +5,18 @@
 
 This is the official PyTorch implementation for the paper "**MMRSG-UNet: Integrating Multi-scale Mamba and Reverse Semantic Gating for Medical Image Segmentation**". 
 
-We deeply value the fundamental reproducibility requirements in the medical imaging community. To ensure complete transparency and facilitate future research, this repository will serve as the central hub for our code, data, and models.
+This repository will serve as the central hub for our code, data, and models.
 
 ## 📢 Update Status & Open Source Commitment
 Currently, the paper is under peer review. The complete and thoroughly commented codebase will be made publicly available **immediately upon the acceptance of the paper**.
 
 ## 🚀 Reproducibility & Codebase Structure
-Our implementation is built upon the highly robust and widely recognized **[CSWin-UNet](https://github.com/eatbeanss/CSWin-UNet)** framework. By inheriting this standardized pipeline, we ensure that our experimental settings are rigorous and easily reproducible. 
+Our implementation is developed based on the open-source **[CSWin-UNet](https://github.com/eatbeanss/CSWin-UNet)** framework. 
 
-Once released, this repository will provide the complete, ready-to-use pipeline. This includes the **full MMRSG-UNet model definition**, **dataset preprocessing tools**, and **unified training/evaluation scripts** to fully reproduce our reported metrics.
+Once released, this repository will provide the complete, ready-to-use pipeline. This includes the full MMRSG-UNet model definition, dataset preprocessing tools, and unified training/evaluation scripts to fully reproduce our reported metrics.
 
 ## 📂 Data Preparation
-The datasets used in our experiments are strictly consistent with previous benchmarks (e.g., TransUNet, CSWin-UNet). 
+The datasets used in our experiments are consistent with previous benchmarks (e.g., TransUNet, CSWin-UNet). 
 
 You can directly download the fully processed Synapse dataset (in `.npz` format) from the original provider's link:
 - [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
