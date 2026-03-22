@@ -23,7 +23,7 @@ The baseline datasets we used follow the standard splits provided by TransUnet's
 
 * **Synapse Dataset:** You can directly download the fully processed Synapse dataset (in `.npz` format) from the original provider's link:
     [👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1ACJEoTp-uqfFJ73qS3eUObQh52nGuzCd)
-* **ACDC Dataset[👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1KQcrci7aKsYZi1hQoZ3T3QUtcy7b--n4)
+* **ACDC Dataset:[👉 Get processed data (Google Drive)](https://drive.google.com/drive/folders/1KQcrci7aKsYZi1hQoZ3T3QUtcy7b--n4)
 
 ## 📦 Pre-trained Models & Weights
 ### Encoder Initialization
