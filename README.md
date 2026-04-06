@@ -30,12 +30,12 @@ To train the MMRSG-UNet from scratch or fine-tune, please run the following comm
 ```bash
 python train.py --cfg configs/cswin_tiny_224_lite.yaml --output_dir your OUT_DIR --root_path your DATA_DIR --max_epochs 250 --batch_size 24 --base_lr 0.0001
 ```
-###Testing
+### Testing
 To evaluate the trained model, please run the following command (ensure you point --resume to your saved .pth weights):
 ```bash
 python test.py --cfg configs/cswin_tiny_224_lite.yaml --output_dir your OUT_DIR --volume_path your DATA_DIR --resume your OUT_DIR/***.pth
 ```
-
+## 🙏 Acknowledgements
 We would also like to express our sincere gratitude to the authors of **CSWin-UNet** for their phenomenal foundational work and open-source contribution. Our codebase is heavily inspired by and built upon their repository. Please consider citing their work as well:
 
 ```bibtex
