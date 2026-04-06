@@ -36,7 +36,9 @@ To evaluate the trained model, please run the following command (ensure you poin
 python test.py --cfg configs/cswin_tiny_224_lite.yaml --output_dir your OUT_DIR --volume_path your DATA_DIR --resume your OUT_DIR/***.pth
 ```
 
-We would also like to express our sincere gratitude to the authors of CSWin-UNet for their phenomenal foundational work and open-source contribution. Our codebase is heavily inspired by and built upon their repository. Please consider citing their work as well:
+We would also like to express our sincere gratitude to the authors of **CSWin-UNet** for their phenomenal foundational work and open-source contribution. Our codebase is heavily inspired by and built upon their repository. Please consider citing their work as well:
+
+```bibtex
 @article{liu2025cswin,
   title={CSWin-UNet: Transformer UNet with cross-shaped windows for medical image segmentation},
   author={Liu, Xiao and Gao, Peng and Yu, Tao and Wang, Fei and Yuan, Ru-Yue},
