@@ -21,7 +21,7 @@ except ImportError:
     try:
         from MS_SSM import MS_SSM
     except ImportError as e:
-        raise ImportError("Failed to import MSCSM module. Please ensure networks/MSCSM.py exists.") from e
+        raise ImportError("Failed to import MSCSM module.") from e
 
 
 class Mlp(nn.Module):
